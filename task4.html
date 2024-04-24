@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>my cool site</title>
+</head>
+<style>
+    /* * {
+        margin: 0;
+        padding: 0;
+    } */
+    /* Header Section */
+    header {
+        background-color: #212121;
+        color: #FFF;
+        font-size: 1.5rem;
+
+
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu>ul {
+        display: flex;
+    }
+
+    .menu>ul>li {
+        list-style: none;
+        padding: 0 12px;
+    }
+
+    /* :end */
+
+    /* main section start */
+
+    .select-section {
+        padding: 0 2rem;
+        margin-bottom: 3rem;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="company-name">
+                Pirple
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/a5Z7pZgVfcQ" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <h1>Image Lists</h1>
+        <ol>
+            <li><img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""></li>
+            <li><img src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""></li>
+        </ol>
+
+        <!-- Form  -->
+        <form action="" class="w-50 m-auto">
+            <div>
+                <label for="">Name</label>
+                <input class="form-control" type="text" name="" id="" placeholder=" Enter Name">
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input class="form-control" type="text" name="" id="" placeholder=" Enter Your Email">
+            </div>
+            <div class="mt-3">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+        <!-- select tag -->
+        <div class="select-section">
+            <label for="">Skills</label>
+            <select name="" id="">
+                <option value="C">C Lang</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+        </div>
+        <audio controls>
+            <source src="horse.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+</body>
+
+</html>
